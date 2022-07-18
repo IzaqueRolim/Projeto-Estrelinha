@@ -1,14 +1,22 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-margin-top:10px;
-width:100%;
-display:flex;
-justify-content:center;
-align-items:center;
-a{
-    color:#004F4D;
-    text-decoration:none;
-    text-align:center;
-}
-`
+
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:13px;
+
+
+  a {
+    color: #004f4d;
+    text-decoration: none;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    gap:5px;
+  }
+`;

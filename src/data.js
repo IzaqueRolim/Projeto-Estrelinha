@@ -33,27 +33,27 @@ export const horarios = [
             times:{
                 firstTime:{
                     hour:"13:00",
-                    name:"IPC"
+                    name:"Introdução à Programação"
                 },
                 secondTime:{
                     hour:"13:50",
-                    name:"IPC"
+                    name:"Intro a Programação"
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 fourthTime:{
                     hour:"15:30",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 fifthTime:{
                     hour:"16:20",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 sixthTime:{
                     hour:"17:10",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 }
             }
         },
@@ -62,19 +62,19 @@ export const horarios = [
             times:{
                 firstTime:{
                     hour:"13:00",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 secondTime:{
                     hour:"13:50",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 fourthTime:{
                     hour:"15:30",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 fifthTime:{
                     hour:"16:20",
@@ -91,27 +91,27 @@ export const horarios = [
             times:{
                 firstTime:{
                     hour:"13:00",
-                    name:"IPC"
+                    name:"Introdução à Programação"
                 },
                 secondTime:{
                     hour:"13:50",
-                    name:"IPC"
+                    name:"Introdução à Programação"
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo Livre"
                 },
                 fourthTime:{
                     hour:"15:30",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 fifthTime:{
                     hour:"16:20",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 sixthTime:{
                     hour:"17:10",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 }
             }
         },
