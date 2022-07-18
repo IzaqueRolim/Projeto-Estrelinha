@@ -3,9 +3,15 @@
   padding:0;
 }
 .App{
+  transition: 1s ease;
   width: 100vw;
   height: 100vh; 
   background-image: linear-gradient(to bottom, #067775 0%, #96FA72 100%);
   background-repeat: no-repeat;
-   
+}
+.App_DarkMode{
+  transition: 0.4s ease-in-out;
+  width: 100vw;
+  height: 100vh; 
+  background-color:black;
 }

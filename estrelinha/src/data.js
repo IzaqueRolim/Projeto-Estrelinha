@@ -2,56 +2,146 @@ export const horarios = [
         {
             day:"Segunda",
             times:{
-                firstTime:"Filosofia da Educação",
-                secondTime:"Filosofia da Educação",
-                thirdTime:"Filosofia da Eduacação",
-                fourthTime:"Filosofia da Educação",
-                fifthTime:"Calculo 1",
-                sixthTime:"Calculo 1"
+                firstTime:{
+                    hour:"13:00",
+                    name:"Filosofia da Educação",
+                },
+                secondTime:{
+                    hour:"13:50",
+                    name:"Filosofia da Educação"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Filosofia da Eduacação"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"Filosofia da Educação"
+                },
+                fifthTime:{
+                    hour:"16:20",
+                    name:"Calculo 1"
+                },
+                sixthTime:{
+                    hour:"17:10",
+                    name:"Calculo 1"
+                }
             }
         },
         {
             day:"Terça",
             times:{
-                firstTime:"IPC",
-                secondTime:"IPC",
-                thirdTime:"Free",
-                fourthTime:"IC",
-                fifthTime:"IC",
-                sixthTime:"IC"
+                firstTime:{
+                    hour:"13:00",
+                    name:"IPC"
+                },
+                secondTime:{
+                    hour:"13:50",
+                    name:"IPC"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Free"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"IC"
+                },
+                fifthTime:{
+                    hour:"16:20",
+                    name:"IC"
+                },
+                sixthTime:{
+                    hour:"17:10",
+                    name:"IC"
+                }
             }
         },
         {
             day:"Quarta",
             times:{
-                firstTime:"Free",
-                secondTime:"Free",
-                thirdTime:"Free",
-                fourthTime:"Free",
-                fifthTime:"Calculo 1",
-                sixthTime:"Calculo 1"
+                firstTime:{
+                    hour:"13:00",
+                    name:"Free"
+                },
+                secondTime:{
+                    hour:"13:50",
+                    name:"Free"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Free"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"Free"
+                },
+                fifthTime:{
+                    hour:"16:20",
+                    name:"Calculo 1"
+                },
+                sixthTime:{
+                    hour:"17:10",
+                    name:"Calculo 1"
+                }
             }
         }
         ,{
             day:"Quinta",
             times:{
-                firstTime:"IPC",
-                secondTime:"IPC",
-                thirdTime:"Free",
-                fourthTime:"IC",
-                fifthTime:"IC",
-                sixthTime:"IC"
+                firstTime:{
+                    hour:"13:00",
+                    name:"IPC"
+                },
+                secondTime:{
+                    hour:"13:50",
+                    name:"IPC"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Free"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"IC"
+                },
+                fifthTime:{
+                    hour:"16:20",
+                    name:"IC"
+                },
+                sixthTime:{
+                    hour:"17:10",
+                    name:"IC"
+                }
             }
         },
         {
             day:"Sexta",
             times:{
-                firstTime:"Legislação",
-                secondTime:"Legislação",
-                thirdTime:"Legislação",
-                fourthTime:"Legislação",
-                fifthTime:"Calculo 1",
-                sixthTime:"Calculo 1"
+                firstTime:{
+                    hour:"13:00",
+                    name:"Legislação"
+                },
+                secondTime:{
+                    hour:"13:50",
+                    name:"Legislação"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Legislação"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"Legislação"
+                },
+                fifthTime:{
+                    hour:"16:20",
+                    name:"Calculo 1"
+                },
+                sixthTime:{
+                    hour:"17:10",
+                    name:"Calculo 1"
+                }
             }
-        },
+        }
     ]
