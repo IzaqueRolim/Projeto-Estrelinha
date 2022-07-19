@@ -8,7 +8,10 @@ export const Div = styled.div`
   justify-content: center;
   align-items: center;
   gap:13px;
-
+  font-family: 'Belleza', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
 
   a {
     color: #004f4d;

@@ -9,6 +9,10 @@
   background-image: linear-gradient(to bottom, #067775 0%, #96fa72 100%);
   background-repeat: no-repeat;
 }
+hr{
+  background-color: white;
+  border: 0.1px solid white;
+}
 .App_DarkMode {
   transition: 0.4s ease-in-out;
   width: 100vw;

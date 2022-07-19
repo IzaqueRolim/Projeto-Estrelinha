@@ -13,7 +13,7 @@ export const horarios = [
             },
             thirdTime:{
                 hour:"14:40",
-                name:"Filosofia da Eduacação"
+                name:"Filosofia da Educação"
             },
             fourthTime:{
                 hour:"15:30",
@@ -21,11 +21,11 @@ export const horarios = [
             },
             fifthTime:{
                 hour:"16:20",
-                name:"Calculo 1"
+                name:"Cálculo 1"
             },
             sixthTime:{
                 hour:"17:10",
-                name:"Calculo 1"
+                name:"Cálculo 1"
             }
         }
     },
@@ -91,11 +91,11 @@ export const horarios = [
                 },
                 fifthTime:{
                     hour:"16:20",
-                    name:"Calculo 1"
+                    name:"Cálculo 1"
                 },
                 sixthTime:{
                     hour:"17:10",
-                    name:"Calculo 1"
+                    name:"Cálculo 1"
                 }
             }
         }
@@ -149,11 +149,11 @@ export const horarios = [
                 },
                 fifthTime:{
                     hour:"16:20",
-                    name:"Calculo 1"
+                    name:"Cálculo 1"
                 },
                 sixthTime:{
                     hour:"17:10",
-                    name:"Calculo 1"
+                    name:"Cálculo 1"
                 }
             }
         }

@@ -10,10 +10,10 @@ function Header({ day }) {
     >
       <Title>
         <img src={Calendario} alt="iconeCalendario" />
-        <h2>Horarios de Aula</h2>
+        <h2>HORÁRIOS DE AULA</h2>
       </Title>
       <Day>
-        <h1>{day}</h1>
+        <h1>{day.toUpperCase()}</h1>
       </Day>
     </div>
   );

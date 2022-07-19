@@ -69,7 +69,7 @@ function Times({ dark, setDay }) {
             <FirstLine1>
               <img src={Clock} alt="iconeRelogio" />
             </FirstLine1>
-            <FirstLine2>Disciplina</FirstLine2>
+            <FirstLine2>DISCIPLINA</FirstLine2>
 
             <Column1>{horarios[index].times.firstTime.hour}</Column1>
             {(hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50) ? 
@@ -112,7 +112,7 @@ function Times({ dark, setDay }) {
             <FirstLine1DarkMode>
               <img src={Clock} alt="iconeRelogio" />
             </FirstLine1DarkMode>
-            <FirstLine2DarkMode>Disciplina</FirstLine2DarkMode>
+            <FirstLine2DarkMode>DISCIPLINA</FirstLine2DarkMode>
 
             <Column1>{horarios[index].times.firstTime.hour}</Column1>
             {(hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50) ? (
