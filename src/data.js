@@ -41,7 +41,7 @@ export const horarios = [
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 fourthTime:{
                     hour:"15:30",
@@ -62,19 +62,19 @@ export const horarios = [
             times:{
                 firstTime:{
                     hour:"13:00",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 secondTime:{
                     hour:"13:50",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 fourthTime:{
                     hour:"15:30",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 fifthTime:{
                     hour:"16:20",
@@ -99,7 +99,7 @@ export const horarios = [
                 },
                 thirdTime:{
                     hour:"14:40",
-                    name:"Free"
+                    name:"Tempo livre"
                 },
                 fourthTime:{
                     hour:"15:30",

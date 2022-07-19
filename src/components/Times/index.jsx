@@ -12,6 +12,7 @@ function Times({dark,setDay}){
     if(minutes<10){
         minutes = "0"+minutes.toString();
     }
+   
 
    
     if(today<1||today>5){
@@ -49,7 +50,7 @@ function Times({dark,setDay}){
                                 <FirstLine2>Disciplina</FirstLine2>
 
                                 <Column1>{horarios[index].times.firstTime.hour}</Column1>
-                                {(hour===13&&minutes>=0)||(hour===13&&minutes<=50)?
+                                {(hour===0&&minutes>=0)||(hour===13&&minutes<=50)?
                                     <Column2Destaque>{horarios[index].times.firstTime.name}</Column2Destaque>:
                                     <Column2>{horarios[index].times.firstTime.name}</Column2>
 
@@ -93,7 +94,7 @@ function Times({dark,setDay}){
                                 <FirstLine1DarkMode><img src={Clock} alt="iconeRelogio"/></FirstLine1DarkMode>
                                 <FirstLine2DarkMode>Disciplina</FirstLine2DarkMode>
                                 <Column1>{horarios[index].times.firstTime.hour}</Column1>
-                                {(hour===13&&minutes>=0)||(hour===13&&minutes<=50)?
+                                {(hour===0&&minutes>=50)||(hour===13&&minutes<=50)?
                                     <Column2Destaque>{horarios[index].times.firstTime.name}</Column2Destaque>:
                                     <Column2>{horarios[index].times.firstTime.name}</Column2>
 
