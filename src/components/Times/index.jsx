@@ -19,6 +19,7 @@ function Times({ dark, setDay }) {
   let today = date.getDay();
   let hour = date.getHours();
   let minutes = date.getMinutes();
+
   if (minutes < 10) {
     minutes = "0" + minutes.toString();
   }
@@ -28,6 +29,7 @@ function Times({ dark, setDay }) {
   }
 
   const [index, setIndex] = useState(today - 1);
+
 
   const addIndex = () => {
     if (index < horarios.length - 1) {
@@ -72,37 +74,38 @@ function Times({ dark, setDay }) {
             <FirstLine2>DISCIPLINA</FirstLine2>
 
             <Column1>{horarios[index].times.firstTime.hour}</Column1>
-            {(hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50) ? 
-                <Column2Destaque> {horarios[index].times.firstTime.name}</Column2Destaque>: 
-                <Column2>{horarios[index].times.firstTime.name}</Column2>
-            }
+            {((hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50)) && (today.toString()=== horarios[index].cod )? (
+              <Column2Destaque>{horarios[index].times.firstTime.name}</Column2Destaque>
+            ) : (
+              <Column2>{horarios[index].times.firstTime.name}</Column2>
+            )}
 
             <Column1>{horarios[index].times.secondTime.hour}</Column1>
-            {(hour === 13 && minutes >= 50)||(hour === 14 && minutes <= 40) ?
+            {((hour === 13 && minutes >= 50)||(hour === 14 && minutes <= 40))&& (today.toString()=== horarios[index].cod ) ?
                 <Column2Destaque>{horarios[index].times.secondTime.name}</Column2Destaque>: 
                 <Column2>{horarios[index].times.secondTime.name}</Column2>
             }
 
             <Column1>{horarios[index].times.thirdTime.hour}</Column1>
-            {(hour === 14 && minutes >= 40)||(hour === 15 && minutes <= 30) ?
+            {((hour === 14 && minutes >= 40)||(hour === 15 && minutes <= 30)) && (today.toString()=== horarios[index].cod ) ?
                 <Column2Destaque>{horarios[index].times.thirdTime.name}</Column2Destaque>: 
                 <Column2>{horarios[index].times.thirdTime.name}</Column2>
             }
-
+            
             <Column1>{horarios[index].times.fourthTime.hour}</Column1>
-            {(hour === 15 && minutes >= 30)||(hour === 16 && minutes <= 20) ? 
-              <Column2Destaque>{horarios[index].times.fourthTime.name}</Column2Destaque>: 
-              <Column2>{horarios[index].times.fourthTime.name}</Column2>
+            {((hour===15&&minutes>=30)||(hour===16&&minutes<=20))&& (today.toString()=== horarios[index].cod )?
+                <Column2Destaque>{horarios[index].times.fourthTime.name}</Column2Destaque>:
+                <Column2>{horarios[index].times.fourthTime.name}</Column2>                        
             }
 
             <Column1>{horarios[index].times.fifthTime.hour}</Column1>
-            {(hour === 16 && minutes >= 20)||(hour === 17 && minutes <= 10) ?
+            {((hour === 16 && minutes >= 20)||(hour === 17 && minutes <= 10))&& (today.toString()=== horarios[index].cod ) ?
               <Column2Destaque>{horarios[index].times.fifthTime.name}</Column2Destaque>: 
               <Column2>{horarios[index].times.fifthTime.name}</Column2>
             }
 
             <Column1>{horarios[index].times.sixthTime.hour}</Column1>
-            {hour === 17 && minutes >= 10 ? 
+            {(hour === 17 && minutes >= 10)&& (today.toString()=== horarios[index].cod ) ? 
               <Column2Destaque>{horarios[index].times.sixthTime.name}</Column2Destaque> : 
               <Column2>{horarios[index].times.sixthTime.name}</Column2>
             }
@@ -115,38 +118,38 @@ function Times({ dark, setDay }) {
             <FirstLine2DarkMode>DISCIPLINA</FirstLine2DarkMode>
 
             <Column1>{horarios[index].times.firstTime.hour}</Column1>
-            {(hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50) ? (
+            {((hour === 13 && minutes >= 0) || (hour === 13 && minutes <= 50)) && (today.toString()=== horarios[index].cod )? (
               <Column2Destaque>{horarios[index].times.firstTime.name}</Column2Destaque>
             ) : (
               <Column2>{horarios[index].times.firstTime.name}</Column2>
             )}
 
             <Column1>{horarios[index].times.secondTime.hour}</Column1>
-            {(hour === 13 && minutes >= 50)||(hour === 14 && minutes <= 40) ?
+            {((hour === 13 && minutes >= 50)||(hour === 14 && minutes <= 40))&& (today.toString()=== horarios[index].cod ) ?
                 <Column2Destaque>{horarios[index].times.secondTime.name}</Column2Destaque>: 
                 <Column2>{horarios[index].times.secondTime.name}</Column2>
             }
 
             <Column1>{horarios[index].times.thirdTime.hour}</Column1>
-            {(hour === 14 && minutes >= 40)||(hour === 15 && minutes <= 30) ?
+            {((hour === 14 && minutes >= 40)||(hour === 15 && minutes <= 30)) && (today.toString()=== horarios[index].cod ) ?
                 <Column2Destaque>{horarios[index].times.thirdTime.name}</Column2Destaque>: 
                 <Column2>{horarios[index].times.thirdTime.name}</Column2>
             }
             
             <Column1>{horarios[index].times.fourthTime.hour}</Column1>
-            {(hour===15&&minutes>=30)||(hour===16&&minutes<=20)?
+            {((hour===15&&minutes>=30)||(hour===16&&minutes<=20))&& (today.toString()=== horarios[index].cod )?
                 <Column2Destaque>{horarios[index].times.fourthTime.name}</Column2Destaque>:
                 <Column2>{horarios[index].times.fourthTime.name}</Column2>                        
             }
 
             <Column1>{horarios[index].times.fifthTime.hour}</Column1>
-            {(hour === 16 && minutes >= 20)||(hour === 17 && minutes <= 10) ?
+            {((hour === 16 && minutes >= 20)||(hour === 17 && minutes <= 10))&& (today.toString()=== horarios[index].cod ) ?
               <Column2Destaque>{horarios[index].times.fifthTime.name}</Column2Destaque>: 
               <Column2>{horarios[index].times.fifthTime.name}</Column2>
             }
 
             <Column1>{horarios[index].times.sixthTime.hour}</Column1>
-            {hour === 17 && minutes >= 10 ? 
+            {(hour === 17 && minutes >= 10)&& (today.toString()=== horarios[index].cod ) ? 
               <Column2Destaque>{horarios[index].times.sixthTime.name}</Column2Destaque> : 
               <Column2>{horarios[index].times.sixthTime.name}</Column2>
             }

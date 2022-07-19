@@ -2,6 +2,7 @@ export const horarios = [
         
     {
         day:"Segunda",
+        cod:"1",
         times:{
             firstTime:{
                 hour:"13:00",
@@ -31,6 +32,7 @@ export const horarios = [
     },
     {
         day:"Terça",
+        cod:"2",
         times:{
             firstTime:{
                 hour:"13:00",
@@ -60,6 +62,7 @@ export const horarios = [
     },
         {
             day:"Quarta",
+            cod:"3",
             times:{
                 firstTime:{
                     hour:"13:00",
@@ -77,18 +80,6 @@ export const horarios = [
                     hour:"15:30",
                     name:"Tempo livre"
                 },
-                secondTime:{
-                    hour:"13:50",
-                    name:"Tempo Livre"
-                },
-                thirdTime:{
-                    hour:"14:40",
-                    name:"Tempo Livre"
-                },
-                fourthTime:{
-                    hour:"15:30",
-                    name:"Tempo Livre"
-                },
                 fifthTime:{
                     hour:"16:20",
                     name:"Cálculo 1"
@@ -101,6 +92,7 @@ export const horarios = [
         }
         ,{
             day:"Quinta",
+            cod:"4",
             times:{
                 firstTime:{
                     hour:"13:00",
@@ -130,6 +122,7 @@ export const horarios = [
         },
         {
             day:"Sexta",
+            cod:"5",
             times:{
                 firstTime:{
                     hour:"13:00",
