@@ -1,62 +1,63 @@
 export const horarios = [
-        {
-            day:"Segunda",
-            times:{
-                firstTime:{
-                    hour:"13:00",
-                    name:"Filosofia da Educação",
-                },
-                secondTime:{
-                    hour:"13:50",
-                    name:"Filosofia da Educação"
-                },
-                thirdTime:{
-                    hour:"14:40",
-                    name:"Filosofia da Eduacação"
-                },
-                fourthTime:{
-                    hour:"15:30",
-                    name:"Filosofia da Educação"
-                },
-                fifthTime:{
-                    hour:"16:20",
-                    name:"Calculo 1"
-                },
-                sixthTime:{
-                    hour:"17:10",
-                    name:"Calculo 1"
-                }
+        
+    {
+        day:"Segunda",
+        times:{
+            firstTime:{
+                hour:"13:00",
+                name:"Filosofia da Educação",
+            },
+            secondTime:{
+                hour:"13:50",
+                name:"Filosofia da Educação"
+            },
+            thirdTime:{
+                hour:"14:40",
+                name:"Filosofia da Eduacação"
+            },
+            fourthTime:{
+                hour:"15:30",
+                name:"Filosofia da Educação"
+            },
+            fifthTime:{
+                hour:"16:20",
+                name:"Calculo 1"
+            },
+            sixthTime:{
+                hour:"17:10",
+                name:"Calculo 1"
             }
-        },
-        {
-            day:"Terça",
-            times:{
-                firstTime:{
-                    hour:"13:00",
-                    name:"IPC"
-                },
-                secondTime:{
-                    hour:"13:50",
-                    name:"IPC"
-                },
-                thirdTime:{
-                    hour:"14:40",
-                    name:"Tempo livre"
-                },
-                fourthTime:{
-                    hour:"15:30",
-                    name:"IC"
-                },
-                fifthTime:{
-                    hour:"16:20",
-                    name:"IC"
-                },
-                sixthTime:{
-                    hour:"17:10",
-                    name:"IC"
-                }
+        }
+    },
+    {
+        day:"Terça",
+        times:{
+            firstTime:{
+                hour:"13:00",
+                name:"Introdução à Programação"
+            },
+            secondTime:{
+                hour:"13:50",
+                name:"Introdução à Programação"
+            },
+            thirdTime:{
+                hour:"14:40",
+                name:"Introdução à Programação"
+            },
+            fourthTime:{
+                hour:"15:30",
+                name:"Introdução a Computação"
+            },
+            fifthTime:{
+                hour:"16:20",
+                name:"Introdução a Computação"
+            },
+            sixthTime:{
+                hour:"17:10",
+                name:"Introdução a Computação"
             }
-        },
+        }
+    },
         {
             day:"Quarta",
             times:{
@@ -76,6 +77,18 @@ export const horarios = [
                     hour:"15:30",
                     name:"Tempo livre"
                 },
+                secondTime:{
+                    hour:"13:50",
+                    name:"Tempo Livre"
+                },
+                thirdTime:{
+                    hour:"14:40",
+                    name:"Tempo Livre"
+                },
+                fourthTime:{
+                    hour:"15:30",
+                    name:"Tempo Livre"
+                },
                 fifthTime:{
                     hour:"16:20",
                     name:"Calculo 1"
@@ -91,27 +104,27 @@ export const horarios = [
             times:{
                 firstTime:{
                     hour:"13:00",
-                    name:"IPC"
+                    name:"Introdução à Programação"
                 },
                 secondTime:{
                     hour:"13:50",
-                    name:"IPC"
+                    name:"Introdução à Programação"
                 },
                 thirdTime:{
                     hour:"14:40",
                     name:"Tempo livre"
-                },
+               },
                 fourthTime:{
                     hour:"15:30",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 fifthTime:{
                     hour:"16:20",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 },
                 sixthTime:{
                     hour:"17:10",
-                    name:"IC"
+                    name:"Introdução a Computação"
                 }
             }
         },

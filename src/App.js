@@ -34,7 +34,7 @@ function App() {
                 <Header day={day}></Header>
                   <Times dark={dark} setDay={setDay}></Times>
                 <hr></hr>
-                <Credits></Credits>
+                <Credits dark={dark}></Credits>
             </div>
              
           
