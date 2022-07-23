@@ -25,7 +25,7 @@ function Times({ dark, setDay }) {
   }
 
   if (today < 1 || today > 5) {
-    today = 0;
+    today = 1;
   }
 
   const [index, setIndex] = useState(today - 1);
